@@ -7,7 +7,7 @@
 
 ### How to read this page
 
-- Words/phrases wrapped in `<>` stand for objects that need to replaced by the user
+- Words/phrases wrapped in `<>` stand for objects that need to be replaced by the user
 
 ## How to set up your bot
 
