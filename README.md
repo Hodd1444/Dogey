@@ -24,7 +24,7 @@
 
 6. Install [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/).
 7. Run the `npm i` command in the root direction to make sure all dependencies are installed correctly
-8. Your bot is set up and is ready to be fed with commands 🙌
+8. Your bot is set up and is ready to be fed with commands 🙌 
 
 ## How to set up new commands
 
