@@ -62,7 +62,6 @@ module.exports = class MessageEvent extends BaseEvent {
         super('<event name>')
     }
     async run(client, <aditional arguments>) {
-        
         // Your code here
     }
 }
