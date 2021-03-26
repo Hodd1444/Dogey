@@ -30,9 +30,11 @@
 ```js
 const BaseCommand = require('../../utils/structures/BaseCommand');
 
-module.exports = class TestCommand extends BaseCommand { // Replace "TestCommand" with the name of your command
+// ⬇️ Replace "TestCommand" with the name of your command
+module.exports = class TestCommand extends BaseCommand {
     constructor() {
-        super('<command name/trigger>', '<command category>', ['<command alias 1>', '<command alias 2>']) // Aliases are optional, you can leave the array empty
+        // ⬇️ Aliases are optional, you can leave the array empty
+        super('<command name/trigger>', '<command category>', ['<command alias 1>', '<command alias 2>']) 
     }
     async run(client, message, args) {
         //Your code here
