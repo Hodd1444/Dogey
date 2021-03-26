@@ -68,6 +68,8 @@ module.exports = class MessageEvent extends BaseEvent {
 }
 ```
 
+3. Start coding and be creative!
+
 ## Credits
 
 - [Slappey](https://github.com/stuyy/slappey)
