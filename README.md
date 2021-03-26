@@ -5,6 +5,10 @@
   <strong>dogehouse.js bot template with command handler 🤖</strong>
 </p>
 
+### How to read this page
+
+- Words/phrases wrapped in `<>` stand for objects that need to replaced by the user
+
 ## How to set up your bot
 
 1. Go to [DogeHouse](https://dogehouse.tv)
