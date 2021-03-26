@@ -13,9 +13,9 @@
 
 1. Go to [DogeHouse](https://dogehouse.tv)
 2. Open Developer options (F12 or Ctrl+Shift+I)
-3. Go to Application > Local Storage > dogehouse.tv
-4. Open the `config.json` file
-5. Replace the following variables with your token and refresh-token found in step 3
+3. Go to Application > Local Storage > dogehouse.tv and copy the `token` and `refresh-token`
+4. Open the `config.json` file in the root directory
+5. Replace the following variables with your token and refresh-token you got in step 3
 
 ```json
 "token": "<your-token-here>",
