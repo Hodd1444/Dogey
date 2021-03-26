@@ -24,8 +24,8 @@
 
 ## How to set up new commands
 
-1. Create a new file in the `./src/commands` directory
-2. Name it anything you want and copy the basic command structure found below:
+1. Create a new file in the `./src/commands` directory and name it anything you want
+2. Copy the basic command structure found below:
 
 ```js
 const BaseCommand = require('../../utils/structures/BaseCommand');
@@ -37,13 +37,36 @@ module.exports = class TestCommand extends BaseCommand {
         super('<command name/trigger>', '<command category>', ['<command alias 1>', '<command alias 2>']) 
     }
     async run(client, message, args) {
-        //Your code here
+        // Your code here
     }
 }
 ```
 
 3. Start coding and be creative!
 
+## How to set up new events
+
+1. Create a new file in the `./src/events` directory and name it anything you want
+2. Copy the basic event structure found below:
+
+```js
+const BaseEvent = require('../utils/structures/BaseEvent');
+
+// ⬇️ Replace "MessageEvent" with the name of the event
+module.exports = class MessageEvent extends BaseEvent {
+    constructor() {
+        super('<event name>')
+    }
+    async run(client, <aditional arguments>) {
+        
+        // Your code here
+    }
+}
+```
+
 ## Credits
 
-This command handler is based off of a discord bot command handler by [Anson the Developer](https://www.youtube.com/channel/UCvjXo25nY-WMCTEXZZb0xsw) called [slappey](https://github.com/stuyy/slappey). I just rewrote the code his project creates to be able to be used with [dogehouse.js](https://github.com/dogegarden/dogehouse.js) 
+- [Slappey](https://github.com/stuyy/slappey)
+- [dogehouse.js](https://github.com/dogegarden/dogehouse.js)
+
+This command handler is based off of a discord bot command handler by [Anson the Developer](https://www.youtube.com/channel/UCvjXo25nY-WMCTEXZZb0xsw) called slappey. I just rewrote the code his project creates to be able to be used with dogehouse.js
