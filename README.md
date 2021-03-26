@@ -1,41 +1,11 @@
-This code was originally written by Anson the Developer
-for a project called slappey: https://github.com/stuyy/slappey
-All copyright goes to him, I just edited
-the rest of the project generated code to be used for dogehouse.js
-
-To set up your bot, just 
-
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/820450983892222022/820961073980899328/dogegarden-bottom-cropped.png" alt="DogeGarden logo" />
+  <img src="https://cdn.discordapp.com/emojis/735384390515032084.gif" alt="DogeGarden logo" />
 </p>
 <p align="center">
-  <strong>dogehouse.js bot template with command handler</strong>
-</p>
-<p align="center">
-  <a href="https://discord.gg/Nu6KVjJYj6">
-    <img src="https://img.shields.io/discord/820442045264691201?style=for-the-badge" alt="discord - users online" />
-  </a>
-  <img src="https://img.shields.io/npm/v/dogehouse.js?style=for-the-badge">
-  <img src="https://img.shields.io/npm/dw/dogehouse.js?style=for-the-badge">
+  <strong>dogehouse.js bot template with command handler 🤖</strong>
 </p>
 
-<h3 align="center">
-  <a href="https://dogehouse.xyz">Website</a>
-  <span> . </span>
-  <a href="https://github.com/dogegarden/dogehouse.js/blob/master/Documentation/CONTRIBUTION.md">Contributing</a>
-  <span> · </span>
-  <a href="https://discord.gg/Nu6KVjJYj6">Discord</a>
-  <span> · </span>
-  <a href="https://docs.dogehouse.xyz">Documentation</a>
-</h3>
-
----
-## NPM Package <img src="https://img.shields.io/npm/v/dogehouse.js?style=for-the-badge">
-
-- Our NPM package is the quickest and easiest way to jump in with dogehouse.js.
-- [dogehouse.js package](https://www.npmjs.com/package/dogehouse.js)
-
-## Installation
+## How to use
 
 1. Go to [DogeHouse](https://dogehouse.tv)
 2. Open Developer options (F12 or Ctrl+Shift+I)
@@ -66,4 +36,4 @@ app.connect(process.env.DOGEHOUSE_TOKEN, process.env.DOGEHOUSE_REFRESH_TOKEN).th
 
 ## Credits
 
-Thank you to [ Abalon#2525 ](https://github.com/alon-abadi) for the awesome logo!
+This command handler is based off of a discord bot command handler by [Anson the Developer](https://www.youtube.com/channel/UCvjXo25nY-WMCTEXZZb0xsw) called [slappey](https://github.com/stuyy/slappey). I just rewrote the code his project creates to be able to be used with [dogehouse.js](https://github.com/dogegarden/dogehouse.js) 
