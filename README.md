@@ -5,19 +5,22 @@
   <strong>dogehouse.js bot template with command handler 🤖</strong>
 </p>
 
-## How to use
+## How to set up your bot
 
 1. Go to [DogeHouse](https://dogehouse.tv)
 2. Open Developer options (F12 or Ctrl+Shift+I)
 3. Go to Application > Local Storage > dogehouse.tv
-4. Copy your token and refresh-token and put them in an .env file:
+4. Open the `config.json` file
+5. Replace the following variables with your token and refresh-token found in step 3
 
 ```
-DOGEHOUSE_TOKEN=<token>
-DOGEHOUSE_REFRESH_TOKEN=<refresh-token>
+"token": "<your-token-here>"
+"refreshtoken": "<your-refresh-token-here>"
 ```
 
-5. Install [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/).
+6. Install [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/).
+7. Run the `npm i` command in the root direction to make sure all dependencies are installed correctly
+8. Your bot is set up and is ready to be fed with commands 🙌
 
 ## Examples
 
